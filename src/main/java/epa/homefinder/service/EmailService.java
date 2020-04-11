@@ -33,7 +33,7 @@ public class EmailService {
             }
             String content = mailContentBuilder.build(text);
             mimeMessageHelper.setText(content, true);
-            mailSender.send(mimeMessage);
+//            mailSender.send(mimeMessage);
         }
     }
 }
